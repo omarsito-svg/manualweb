@@ -17,6 +17,7 @@ El lenguaje [Java][ManualJava] da de base una serie de tipos de datos primitivos
 *   double
 *   boolean
 *   char
+*   
 
 Es importante saber que estos son tipos de datos del lenguaje y que no representan objetos. Cosa que sí sucede con el resto de elementos del lenguaje [Java][ManualJava].
 
@@ -64,7 +65,7 @@ En el caso de que definamos una variable y no le demos ningún valor, por defect
 | long                        | 0L                |
 | float                       | 0\.0f             |
 | double                      | 0\.0d             |
-| char                        | 'u0000'           |
+| char                        | '\u0000'          |
 | String (o cualquier objeto) | null              |
 | boolean                     | false             |
 
